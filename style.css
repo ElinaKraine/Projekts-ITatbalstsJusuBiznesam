@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+
+*{
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root{
+    --viss: #04436e;
+    --tipaFooter: #2b73a3;  
+}
+
+body{
+    background-image: url('images/bg.png');
+}
+
+nav{
+    width: 100%;
+    margin: 0;
+    height: 5rem;
+    background-color: var(--viss);
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #eee;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+header{
+    margin: auto;
+    width: 1200px;
+    height: 10rem;
+    color: var(--viss);
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.5rem 0;
+}
+
+button{
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid #eee;
+    border-radius: 1rem;
+}
+
+button:hover{
+    transform: translateY(-1rem);
+}
+
+#zils{
+    background-color: #04436e;
+}
+
+#violets{
+    background-color: #902094;
+}
+
+#melns{
+    background-color: #1b1b1b;
+}
+
+#dzeltans{
+    background-color: #cabe11;
+}
+
+.box{
+    margin: auto;
+    width: 1200px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.g{
+    width: 100%;
+    background-color: rgba(222,222,222,0.3);
+}
+
+.slideshow-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    max-width: 100%;
+    width: 1240px;
+    margin: auto;
+}
+
+.p, .n{
+    width: 20px;
+}
+
+.slides {
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+}
+
+.slide {
+    display: none;
+    width: 1200px;
+    height: 20vh;
+    object-fit: cover;
+    margin: auto;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    z-index: 2;
+}
+
+.next {
+    padding-left: 10px;
+}
+
+.teksts h3{
+    color: var(--viss);
+    padding: 1rem;
+    padding-left: 0;
+    font-size: 1.3rem;
+    width: 22rem;
+}
+
+.teksts p{
+    color: #898989;
+    width: 22rem;
+}
+
+.teksts{
+    width: 1200px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+}
+
+.palidzibaUNsistema p, .datorsUNapkalposana p{
+    padding-bottom: 1rem;
+}
+
+.btn{
+    display: inline-block;
+    padding: .5rem .5rem;
+    border-radius: .5rem;
+    background: var(--viss);
+    color: #eee;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background: #000000;
+    color: var(--tipaFooter);
+}
+
+.vertibas{
+    width: 1200px;
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px 10px;
+}
+
+.ver{
+    width: 100%;
+    color: var(--viss);
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+
+.kvalitativi, .prof, .godiga, .rezultats{
+    width: 20rem;
+    color: #898989;
+    text-align: center;
+    border: 1px solid  rgba(222,222,222,0.4);
+    border-radius: 1rem;
+    background-color: rgba(222,222,222,0.4);
+    padding: 1rem 1rem;
+}
+
+.vertibas h3{
+    transform: translateY(-40px);
+    color: var(--viss);
+    font-size: 1.25rem;
+    padding-bottom: 1rem;
+}
+
+.vertibas p{
+    transform: translateY(-40px);
+    padding-bottom: 0.5rem;
+}
+
+.btn2{
+    transform: translateY(-30px);
+    display: inline-block;
+    padding: .5rem 2rem;
+    border-radius: .3rem;
+    background: #898989;
+    color: #eee;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.btn2:hover{
+    background: var(--tipaFooter);
+    color: #eee;
+}
+
+.vertibas img{
+    transform: translateY(-60px);
+    position: center;
+    width: 7rem;
+    height: 7rem;
+    padding-bottom: 0;
+}
+
+footer{
+    margin-top: 5rem;
+    padding-top: 2rem;
+    background: url(images/bg2.png);
+    background-color: var(--tipaFooter);
+    color: #eee;
+    text-align: center;
+    font-size: 1.2rem;
+    height: 16rem;
+}
+
+.title{
+    font-size: 2rem;
+    padding-bottom: .5rem;
+}
+
+.tiesibas{
+    background-color: var(--viss);
+    padding: 1rem;
+}
+
+.tiesibas p{
+    padding-top: .5rem;
+}
+
+.fotBot{
+    padding-bottom: 5rem;
+}
+
+.socTik{
+    width: 200px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    color: #eee;
+}
+
+.in{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+.in img{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    transform: translateX(-20px);
+}
+
+footer input{
+    font-weight: bold;
+    margin-top: 1rem;
+    font-size: 1rem;
+    height: 2.5rem;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding-left: 1rem;
+}
+
+.gatavs{
+    padding: 5px 10px;
+    color: var(--viss);
+}
+
+.gatavs:hover{
+    background: var(--viss);
+    color: #eee;
+}
+
+#uz-augsu {
+    position: fixed;
+    background-image: url(images/up.png);
+    background-size: 100%;
+    bottom: 15px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+@media(max-width: 500px){
+    *{
+        margin: auto;
+    }
+
+    .box{
+        width: 500px;
+    }
+    
+    header{
+        font-size: 1rem;
+        width: 500px;
+        text-align: center;
+    }
+
+    .teksts{
+        display: block;
+        flex-flow: row column;
+        margin: auto;
+        padding: 0;
+    }
+
+    .vertibas{
+        flex-flow: row wrap;
+    }
+
+    .ver{
+        width: 500px;
+        text-align: center;
+    }
+
+    nav, footer{
+        width: 515px;
+    }
+
+    nav{
+        height: 6rem;
+    }
+
+    footer{
+        height: 25rem;
+    }
+
+    .slideshow-container {
+        width: 100%;
+        max-width: none;
+    }
+
+    .slides {
+        width: 100%;
+    }
+
+    .slide {
+        width: 100%;
+    }
+
+    .slides img {
+        width: 100%;
+        height: auto;
+    }
+
+    .prev, .next {
+        padding: 0;
+    }
+}
